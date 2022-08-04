@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 419552736}
   - component: {fileID: 419552735}
+  - component: {fileID: 419552737}
   m_Layer: 0
   m_Name: img (1)_2 (1)
   m_TagString: Untagged
@@ -207,6 +208,32 @@ Transform:
   m_Father: {fileID: 723936651}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!61 &419552737
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419552734}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.86, y: 5.15}
+    newSize: {x: 0.86, y: 5.15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.86, y: 5.15}
+  m_EdgeRadius: 0
 --- !u!1 &508747485
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 508747487}
   - component: {fileID: 508747486}
+  - component: {fileID: 508747488}
   m_Layer: 0
   m_Name: img (1)_2
   m_TagString: Untagged
@@ -291,6 +319,32 @@ Transform:
   m_Father: {fileID: 723936651}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &508747488
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508747485}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.86, y: 5.15}
+    newSize: {x: 0.86, y: 5.15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.86, y: 5.15}
+  m_EdgeRadius: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,6 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c7a9e79d33b40cea3932e4d6a745c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1.5
 --- !u!1 &776264740
 GameObject:
   m_ObjectHideFlags: 0

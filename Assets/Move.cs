@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
+    public float speed = 1.5f;
     // Start is called before the first frame update
     void Start()
     {   
@@ -19,7 +20,7 @@ public class Move : MonoBehaviour
 
         // Rigidbody2D의 경우 좌표를 x, y축 존재해 Vector2 컴포넌트를 사용하지만
         // 이번에 추가한 파이프 오브젝트는 인스펙터를 확인해보면 x, y, z 3개의 좌표가 포함되어있기 때문에 Vector3 컴포넌트를 사용한다.
-        transform.position += Vector3.left * Time.deltaTime; // Vector3.left는 내부적으로 (-1, 0, 0)을 의미한다.
+        transform.position += Vector3.left * Time.deltaTime * speed; // Vector3.left는 내부적으로 (-1, 0, 0)을 의미한다.
         /*
             transform.position += Vector3.left; <-- 왼쪽 처럼 짜면 문제가하나있다.
             update 함수는 프레임마다 실행하게되는데, 문제는 스마트폰, 컴퓨터 성능에 따라 다르게 동작하게된다.
